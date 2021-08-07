@@ -1,0 +1,65 @@
+h1{
+color:rgb(238, 115, 15)
+}
+
+
+
+/*{
+border:solid 
+}*/
+
+.header{
+background-color: blue   ;
+display:flex;
+justify-content: end;
+}
+
+.menu{
+margin-left: 1000px;
+}
+
+
+.intro{
+background-color: lawngreen;
+display: flex;
+justify-content: right;
+}
+
+body{
+
+background-color: #FFEF00
+
+}
+
+.code {
+position: relative;
+
+
+}
+
+.text1 {
+color :rgb(22, 238, 15),
+    
+}
+
+.code p{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-150% ,-20%);
+opacity: 0;
+}
+
+
+
+
+.code:hover p{
+opacity: 1;
+
+}
+
+.code:hover img{
+    opacity: 0.15;
+    
+    }
